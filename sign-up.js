@@ -1,4 +1,4 @@
-let inputElements = document.querySelectorAll('.inputs'); // Barcha "inputs" klassiga ega input elementlarni tanlaymiz
+let inputElements = document.querySelectorAll('.inputs'); 
 let button = document.getElementById('btn');
 let kirish = document.getElementById('kirish');
 let sign = document.getElementById('sign-up');
