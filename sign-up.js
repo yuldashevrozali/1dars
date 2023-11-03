@@ -38,3 +38,9 @@ enter.addEventListener('click', function () {
         alert("Username yoki parolda xatolik bor")
     }
 });
+
+const end = document.getElementById('end');
+end.addEventListener('click', function() {
+    kirish.style.display = "none";
+    sign.style.display = "block"; 
+})
