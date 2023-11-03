@@ -14,10 +14,10 @@ button.addEventListener('click', function () {
 
     for (let input of inputElements) {
         if (!input.value) {
-            alert("bo'sh joylar bo'lmasligi ") 
+            alert("bo'sh joylar bo'lmasligi kerak ") 
         }else{
             if (name && username && age && password) {
-                const user = { name, username, age, password };
+                var user = { name, username, age, password };
                 localStorage.setItem(username, JSON.stringify(user));
             }
         }
@@ -28,5 +28,13 @@ button.addEventListener('click', function () {
 });
 
 enter.addEventListener('click', function () {
-    
+    const username_2 = document.getElementById('username_2').value;
+    const parol = document.getElementById('password_2').value;
+    const user1 = JSON.parse(localStorage.getItem(username_2));
+
+    if (user1 && user1.password === parol) {
+        alert("Siz shaxsiy kabinetingizga kirdingiz")
+    } else {
+        alert("Username yoki parolda xatolik bor")
+    }
 });
