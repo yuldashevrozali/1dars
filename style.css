@@ -1,0 +1,75 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: goldenrod;
+}
+h1{
+    width: 243px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
+
+#sign-up{
+    width: 243px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    margin-bottom: 15px;
+    width: 500px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: -86px;
+    color: rgb(12, 10, 10);
+    background-color: rgb(255, 255, 255);
+
+}
+#username_2{
+    margin-left: 450px;
+}
+#password_2{
+    margin-left: 450px;
+}
+#enter{
+    margin-left: 550px;
+}
+label{
+    margin-left: -86px;
+}
+
+#btn{
+    width: 300px;
+    height: 50px;
+    margin-left: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(172, 154, 54);
+    color: white;
+    transition: all 0.4s;
+}
+#btn:hover{
+    background-color: gold;
+    color: rgb(172, 154, 54);
+}
+
+#enter{
+    width: 300px;
+    height: 50px;
+    margin-left: 550px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(172, 154, 54);
+    color: white;
+    transition: all 0.4s;
+}
+
+#enter:hover{
+    background-color: gold;
+    color: rgb(172, 154, 54);
+}
